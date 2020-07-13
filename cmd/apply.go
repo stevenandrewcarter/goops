@@ -55,5 +55,5 @@ type config struct {
 
 type command struct {
 	Name string   `hcl:",label"`
-	Args []string `hcl:"args"`
+	Args []string `hcl:"args,optional"`
 }
